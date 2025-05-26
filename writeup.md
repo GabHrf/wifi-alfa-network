@@ -59,6 +59,7 @@
         -c [CHANNEL] : Limite la capture au canal WiFi spécifié.
         -w capture : Enregistre les paquets capturés dans un fichier nommé capture-01.cap.
     Pourquoi : La capture est nécessaire pour récupérer une handshake WPA/WPA2, indispensable pour tenter de casser le mot de passe.
+![alfa 5](https://github.com/user-attachments/assets/dd844221-6c9d-4a3e-a933-c335364a01a4)
 
 - Lorsqu'une handshake est capturée, vous verrez une ligne similaire à ceci : WPA handshake: [BSSID]
 - Si vous ne voyez pas de handshake, cela signifie que :
