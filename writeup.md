@@ -51,6 +51,7 @@
 - `sudo airodump-ng "INTERFACE"`
     But : Affiche une liste des réseaux WiFi détectés.
     Pourquoi : Cela vous permet de repérer le réseau cible et de récupérer son BSSID, son canal (CH) et son nom (ESSID).
+![alfa 3](https://github.com/user-attachments/assets/713b017e-7b15-4695-9f5a-b846c3b543ef)
 
 - `sudo airodump-ng "INTERFACE" --bssid [BSSID] -c [CHANNEL] -w capture`
     Options détaillées :
