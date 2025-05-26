@@ -29,6 +29,8 @@
         Remarque : Après l'audit, vous pouvez redémarrer ces services pour rétablir la gestion classique des connexions WiFi.
 
 ## UP la carte et mode monitor
+![alfa 1](https://github.com/user-attachments/assets/bf2410dd-acee-4394-b5d3-f8a703d51151)
+
 - `sudo iwconfig // sudo ifconfig` : Montre toutes les interfaces avec les mode des cartes.
 
 - `sudo ifconfig "INTERFACE" down` : Désactive l'interface réseau.
