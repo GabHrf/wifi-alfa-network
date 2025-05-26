@@ -83,7 +83,9 @@
     - `sudo wireshark -r file.cap` et chercher des fichier oapol
     - `sudo tshark -r file.cap -Y "eapol && wlan.addr==CLIENT"`
 
-![alfa 7](https://github.com/user-attachments/assets/52196726-9a8c-4e04-8fdf-37b93550ea9a)
+![alfa 7](https://github.com/user-attachments/assets/7e01ba27-9759-4225-b1ec-9de4c9a67c3b)
+
+![alfa 8](https://github.com/user-attachments/assets/e4029c69-9693-43f3-9d8e-ea6b1515737c)
 
 
 - `sudo aircrack-ng -w [wordlist.txt] -b [BSSID] capture-01.cap`
@@ -92,6 +94,7 @@
         -b [BSSID] : Cible le point d'accès spécifié.
         capture-01.cap : Utilise le fichier de capture généré par airodump-ng.
     Pourquoi : Cette étape tente de casser le mot de passe en utilisant une attaque par dictionnaire.
+![alfa 9](https://github.com/user-attachments/assets/883c16d7-9eb5-4b23-9aef-a5d433af1714)
 
 
 ## Restaurer les services après l’audit
