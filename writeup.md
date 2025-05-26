@@ -38,6 +38,7 @@
 - `sudo iwconfig "INTERFACE" mode managed` : Active le mode managed (de base).
 - `sudo ifconfig "INTERFACE" up` : Active l'interface réseau.
 
+![alfa 2](https://github.com/user-attachments/assets/4f7cdc10-bcc9-45c6-a035-5c5d57db0191)
 
 
 ## COMMANDES
