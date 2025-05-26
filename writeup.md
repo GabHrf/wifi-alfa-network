@@ -100,6 +100,11 @@
 ## Restaurer les services après l’audit
 
 Après avoir terminé, redémarrez les services pour reprendre une utilisation normale du WiFi :
+- `sudo ifconfig "INTERFACE" down` : Désactive l'interface réseau.
+- `sudo iwconfig "INTERFACE" mode managed` : Active le mode managed (de base).
+- `sudo ifconfig "INTERFACE" up` : Active l'interface réseau.
+
+- `sudo airmon-ng stop "INTERFACE"` avec `sudo iw "INTERFACE" del`
 
 - `sudo systemctl restart NetworkManager`
 - `sudo systemctl restart wpa_supplicant`
