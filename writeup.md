@@ -27,6 +27,8 @@
     - `sudo airmon-ng check kill`
         Effet : Cette commande désactive les services responsables des interférences
         Remarque : Après l'audit, vous pouvez redémarrer ces services pour rétablir la gestion classique des connexions WiFi.
+![Screenshot_20250526_094939](https://github.com/user-attachments/assets/93654c09-a287-4668-b1f7-52c9f2712781)
+
 
 ## UP la carte et mode monitor
 ![alfa 1](https://github.com/user-attachments/assets/bf2410dd-acee-4394-b5d3-f8a703d51151)
